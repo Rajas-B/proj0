@@ -1,0 +1,21 @@
+$color1: red;
+form{
+  label{
+    color: $color1;
+    font-size: 22px;
+  }
+  button{
+    color: $color1;
+    text-shadow: red 2px 5px;
+  }
+}
+.button{
+  height: 30px;
+  font-size: 16px;
+  padding: 0 2rem;
+  border-radius: 4px;
+}
+.button-def{
+  @extend .button;
+  border: 1px solid #0c434a;
+}

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Nav Tag</title>
+    <link rel="stylesheet" href="styles1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <meta name="viewport" content=" width=device-width, initial-scale=1">
+</head>
+<body>
+<img src="icon.png" align="left"></img>
+ <h1>My Website</h1>
+<nav>
+  <ul>
+    <li><a href="#" id="activ">Home</a></li>
+    <li><a href="info.html">Bootstrap</a></li>
+    <li><a href="List.html">List</a></li>
+    <li><a href="table.html">Table</a></li>
+    <li></li>
+  </ul>
+ </nav>
+ <form>
+   <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputEmail4">Name</label>
+      <input type="texts" class="form-control" placeholder="First name">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="lname">&nbsp;</label>
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+  <div>
+     <label for="lname">Phone number:</label>
+     <input style = "width: 300px;" type="text" class="form-control" placeholder="Enter valid phone number">
+   </div>
+   <div>
+     <label for="addr">Address:</label>
+     <input style = "width: 300px;" type="text" class="form-control" placeholder="Line1">
+     <input style = "width: 300px;" type="text" class="form-control" placeholder="Line2">
+     <input style = "width: 300px;" type="text" class="form-control" placeholder="Line3">
+     <input style = "width: 300px;" type="text" class="form-control" placeholder="Line4">
+   </div>
+   <div class="form-row">
+     <div class="form-group col-md-4">
+       <label for="inputCountry">Country</label>
+       <input class="form-control" name="Country" list="countries" placeholder="Country">
+       <datalist id="countries">
+         <option value="India">
+         <option value="Russia">
+         <option value="UK">
+         <option value="Japan">
+         <option value="China">
+         <option value="USA">
+      </datalist>
+    </div>
+     <div class="form-group col-md-4">
+       <label for="inputState">State</label>
+       <select id="inputState" class="form-control">
+       <option selected>Choose...</option>
+       <option>...</option>
+       </select>
+     </div>
+     <div class="form-group col-md-2">
+     <label for="inputpin">Pin Code</label>
+     <input type="text" class="form-control" id="inputZip">
+   </div>
+   </div>
+   <button class="menu">Submit</button>
+ </form>
+</body>
+</html>

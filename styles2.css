@@ -1,0 +1,21 @@
+form label {
+  color: red;
+  font-size: 22px; }
+form button {
+  color: red;
+ }
+
+.button, .button-def {
+  font-size: 24px;
+  padding: 5px 5px;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-def {
+  border: 1px solid #0c434a;
+  text-align: center;
+
+}
+
+/*# sourceMappingURL=styles2.css.map */

@@ -1,0 +1,80 @@
+
+img{
+  width:142px;
+  height: auto;
+}
+
+nav{
+   list-style: none;
+   font-weight: bold;
+   background-color: #302405;
+   height:53px;
+}
+
+ul {
+list-style-type: none;
+margin: 0;
+margin-top: auto;
+padding: 0px 0px;
+position: relative;
+right: 0;
+border: 0;
+background-color: #f0e1bd;
+height: auto;
+font-family:courier,arial,helvetica;
+}
+@media (min-width: 900px){
+  nav{
+    width: 100%;
+  }
+  li a{
+    width: 200px;
+  }
+}
+@media(max:width: 899px) and (min:width:700px){
+  li a{
+    width: 50%
+  }
+}
+@media (max-width: 699px){
+  li a{
+    width: 100%;
+  }
+}
+li a {
+display: inline;
+display: block;
+float:left;
+padding: 8px 20px;
+text-decoration: solid;
+text-align: center;
+font-size: 25px;
+border-right: 1px solid #;
+background-color: #302405;
+color: #80bee8;
+}
+li a:hover {
+background-color: #ffc9c9;
+text-decoration: none;
+}
+#activ{
+  background-color: #049160;
+  color: #ffffff;
+}
+h1{
+  font-family:courier,arial,helvetica;
+}
+button:hover{
+  background-color: #dedede;
+  border-style: groove;
+  border-radius: 5px;
+}
+.lst1{
+  position:static;
+  float: left;
+}
+.fit-image{
+width: 100%;
+object-fit: cover;
+height: auto; /* only if you want fixed height */
+}
